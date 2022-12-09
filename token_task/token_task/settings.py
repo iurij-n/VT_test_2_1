@@ -19,7 +19,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
-    'djoser',
     'api.apps.ApiConfig',
     'rest_framework_simplejwt.token_blacklist',
 ]
