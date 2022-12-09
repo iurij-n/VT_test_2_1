@@ -1,6 +1,6 @@
 ## Задание №2.1.
 
-Стэк:
+#### Стэк:
 - Python
 - Django
 - Simple JWT
@@ -25,21 +25,37 @@
 #### Инструкция по запуску
 
 - Клонировать репозиторий
-```git clone https://github.com/iurij-n/VT_test_2_1.git```
+```
+git clone https://github.com/iurij-n/VT_test_2_1.git
+```
 - Создать виртуальное окружение
-```python -m venv venv```
+```
+python -m venv venv
+```
 - Активировать виртуальное окружение
 для Windows
-```source venv/Scripts/actevate```
+```
+source venv/Scripts/actevate
+```
 для Linux
-```source venv/bin/actevate```
+```
+source venv/bin/actevate
+```
 - Установить зависимости
-```pip install -r requrements.txt```
+```
+pip install -r requrements.txt
+```
 
 Из папки `token_task`
 - Создать миграции
-```python migrate.py makemigrations```
+```
+python migrate.py makemigrations
+```
 - Выполнить миграции
-```python migrate.py migrate```
+```
+python migrate.py migrate
+```
 - Запустить сервер
-```python migrate.py runserver```
+```
+python migrate.py runserver
+```
