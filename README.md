@@ -6,7 +6,7 @@
 - Simple JWT
 - REST API
 
-Сделать сервис с REST API. Авторизация по bearer токену (/info, /latency, /logout). 
+Сервис с REST API. Авторизация по bearer токену (/info, /latency, /logout). 
 Реализовать CORS. СУБД - Postgres. Токен генерируется по запросу /sigin, действителен 10 минут. Продлевать при любом запросе пользователя (кроме signin).
 
 API:
