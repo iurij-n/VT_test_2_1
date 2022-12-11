@@ -35,11 +35,11 @@ python -m venv venv
 - Активировать виртуальное окружение
 для Windows
 ```
-source venv/Scripts/actevate
+source venv/Scripts/activate
 ```
 для Linux
 ```
-source venv/bin/actevate
+source venv/bin/activate
 ```
 - Установить зависимости
 ```
@@ -49,13 +49,13 @@ pip install -r requrements.txt
 Из папки `token_task`
 - Создать миграции
 ```
-python migrate.py makemigrations
+python manage.py makemigrations
 ```
 - Выполнить миграции
 ```
-python migrate.py migrate
+python manage.py migrate
 ```
 - Запустить сервер
 ```
-python migrate.py runserver
+python manage.py runserver
 ```
